@@ -440,6 +440,8 @@ written up step by step in [docs/NATIVE_RUN.md](docs/NATIVE_RUN.md), including
 the known-ineffective input and capture routes and the 10-minute fixture
 window. Local fixture sessions expire after 10 minutes by design and refuse
 further mutations with an explicit message.
+The platform friction we hit along the way, with the workarounds we used, is
+written up in [docs/FRICTION_LOG.md](docs/FRICTION_LOG.md).
 
 ## Repository structure
 
@@ -463,6 +465,7 @@ docs/
   DECISION_RUNTIME.md    runtime modes and bounded session behavior
   PERSISTENCE_CONTRACT.md the frozen CAS/idempotency persistence contract
   NATIVE_RUN.md          local Vega Virtual Device run and capture procedure
+  FRICTION_LOG.md        platform friction observed while building, with workarounds
   design/                the frozen TV UI design package
   assets/readme/         the four native screenshots on this page
 PROVENANCE.md            authorship, dependencies, licensing, evidence provenance
