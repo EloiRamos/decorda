@@ -1,0 +1,27 @@
+# Dependencies and build output
+node_modules/
+build/
+dist/
+.tmp/
+generated/
+buildinfo.json
+
+# Local Vega/device tooling state
+.vega/
+.vvd/
+.vda/
+.kepler/
+
+# Environment and credentials
+.env
+.env.*
+*.pem
+*.key
+credentials
+
+# Logs, packages, and editor/OS state
+*.log
+*.vpkg
+.DS_Store
+.idea/
+.vscode/
